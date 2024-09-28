@@ -1,0 +1,1852 @@
+@media only screen and (max-width: 1600px){
+    /* banner head css */
+    .banner-head {
+        padding: 50px 12%;
+        grid-template-columns: 28% 40% 28%;
+    }
+    .phone {
+        width: 200px;
+        height: 65px;
+    }
+    .phone p {
+        font-size: 19px;
+    }
+    .logo img {
+        max-width: 340px;
+    }
+    .reservation img {
+        width: 29px;
+        height: 27px;
+        margin-right: 25px;
+    }
+    .reservation .reserve {
+        width: 200px;
+        height: 65px;
+        font-size: 21px;
+    }
+    /* banner head css */
+    /* navbar css */
+    .navbar {
+        padding: 25px 12%;
+    }
+    .nav-left ul li {
+        margin-right: 5%;
+    }
+    .nav-left ul li a {
+        font-size: 19px;
+    }
+    .nav-right ul li a img{
+        width: 24px;
+        height: auto;
+    }
+    /* navbar css */
+    /* banner css */
+    .banner {
+        padding: 24px 0 0 12%;
+    }
+    .banner-left {
+        padding-top: 20%;
+        width: 100%;
+    }
+    .banner-left h1 {
+        font-size: 80px;
+        margin-bottom: 26px;
+        line-height: 60px;
+    }
+    .banner-left p {
+        font-size: 19px;
+        color: #DFDFDF;
+        padding-right: 14%;
+        margin-bottom: 32px;
+        line-height: 24px;
+    }
+    .banner-left button {
+        width: 200px;
+        height: 65px;
+    }
+    .banner-left button a {
+        font-size: 21px;
+    }
+    .banner-right {
+        padding-right: 6%;
+        margin-bottom: -17.8%;
+    }
+    /* banner css */
+    /* location section css */
+    .location-section {
+        padding: 9% 12%;
+    }
+    .icon {
+        height: 70px;
+        width: 70px;
+        margin-right: 0px;
+    }
+    
+    .icon img{
+        height: 45px;
+        width: 45px;
+    }
+    .detail h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .detail p {
+        font-size: 19px;
+    }
+    .story-container h4 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .story-container p {
+        font-size: 19px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .story-container p span{
+        display: none;
+    }
+    .years-left h6 {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+    .years-left img {
+        width: 140px;
+    }
+    /* location section css */
+    /* menu section css */
+    .menu-section {
+        grid-template-columns: 100%;
+        padding: 7% 12%;
+        justify-content: center;
+    }
+    .menu-left h5 {
+        text-align: center;
+    }
+    
+    .menu-left h5::after {
+        margin: 0 auto;
+    }
+    .menu-left h5::before {
+        margin: 0 auto;
+    }
+    .menu-left h3 {
+        font-size: 36px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .menu-left p {
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 59px;
+    }
+    .menu-left{
+        padding: 0 20%;
+        text-align: center;
+        max-height: 1000px;
+    }
+    .menu-left img {
+        width: 100%;
+        max-height: 600px;
+        margin-bottom: 50px;
+    }
+    .dish {
+        width: 200px;
+        height: 65px;
+        font-size: 21px;
+        margin-bottom: 50px;
+    }
+    .menu-right {
+        padding: 0 10%;
+    }
+    .menu-right h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .menu-right h4 {
+        font-size: 28px;
+    }
+    .menu-right h5 {
+        font-size: 28px;
+    }
+    /* menu section css */
+    /* testimonial section css */
+    .testimonial-section {
+        padding-left: 12%;
+    }
+    .testimonial-section h3 {
+        font-size: 36px;
+    }
+    .testimonial-section p {
+        font-size: 19px;
+    }
+    .card {
+        height: 345px;
+        background-color: #343942;
+        padding: 40px 30px;
+    }
+    .card-head {
+        margin-bottom: 20px;
+    }
+    .card-head img{
+        width: 80px;
+    }
+    .card-head .name p {
+        font-size: 19px;
+    }
+    .name h4 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .italic p {
+        font-size: 22px;
+    }
+    /* testimonial section css */
+    /* special dish section */
+    .special-dish {
+        padding: 7% 12% 4.7% 12%;
+        text-align: center;
+    }
+    .special-dish h3 {
+        font-size: 36px;
+    }
+    .special-dish p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    /* special dish section */
+    /* popular dish section */
+    .popular-dish {
+        padding: 0 12% 9% 12%;
+    }
+    .popular-dish h3 {
+        font-size: 36px;
+    }
+    .popular-dish p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .popular-items {
+        grid-template-columns: 43% 43%;
+        padding: 0 8%;
+    }
+    .item-name h4, .item-price h4 {
+        font-size: 28px;
+    }
+    .item{
+        margin-bottom: 40px;
+    }
+    /* popular dish section */
+    /* service section css */
+    .service-section {
+        padding: 7% 12%;
+        grid-template-columns: 35% 61.5%;
+    }
+    .service-left h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .service-left p {
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .service-card img {
+        margin-bottom: 15px;
+        width: 45px;
+    }
+    .service-card h4 {
+        font-size: 22px;
+    }
+    /* service section css */
+    /* blog section css */
+    .blog-section {
+        padding: 7% 12%;
+    }
+    .blog-section h3 {
+        font-size: 36px;
+        margin-bottom: 22px;
+    }
+    .blog-section p {
+        font-size: 19px;
+        margin-bottom: 60px;
+    }
+    .left-img {
+        height: 45%;
+    }
+    .content-img {
+        height: 45%;
+    }
+    .blog-detail {
+        padding: 35px 30px;
+        text-align: left;
+    }
+    .blog-detail h3 {
+        font-size: 30px;
+    }
+    /* blog section css */
+    
+    /* reservation section css */
+    .form-head h3 {
+        font-size: 36px;
+        margin-bottom: 36px;
+    }
+    .personal-details input{
+        font-size: 20px;
+        height: 65px;
+    }
+    .reservation-detail input{
+        font-size: 20px;
+        height: 65px;
+    }
+    form button{
+        font-size: 20px;
+        height: 65px;
+        margin-top: 30px;
+    }
+    /* reservation section css */
+    /* footer section css  */
+    .footer-section {
+        padding: 0 12%;
+    }
+    .footer-head{
+        grid-template-columns: 30% 40% 30%;
+    }
+    .footer-head .logo img {
+        max-width: 280px;
+    }
+    .footer-section p{
+        font-size: 19px;
+    }
+    .footer-form input::placeholder {
+        font-size: 20px;
+    }
+    .footer-form input {
+        height: 60px;
+    }
+    .footer-form button {
+        font-size: 20px;
+        height: 60px;
+    }
+    .footer p {
+        font-size: 19px;
+    }
+    .social img{
+        width: 22px;
+    }
+    .mail p {
+        padding: 0 13%;
+    }
+    /* footer section css  */
+
+}
+@media only screen and (max-width: 1200px){
+    /* banner head css */
+    .banner-head {
+        padding: 40px 11%;
+        grid-template-columns: 30% 38% 30%
+    }
+    .phone {
+        max-width: 160px;
+        height: 55px;
+    }
+    .phone p {
+        font-size: 18px;
+    }
+    .logo img {
+        max-width: 280px;
+    }
+    .reservation img {
+        width: 26px;
+        height: 24px;
+        margin-right: 20px;
+    }
+    .reservation .reserve {
+        max-width: 160px;
+        height: 55px;
+        font-size: 20px;
+    }
+    /* banner head css */
+    /* navbar css here */
+    .navbar {
+        padding: 25px 11%;
+    }
+    .nav-left ul li {
+        margin-right: 4%;
+    }
+    .nav-left ul li a {
+        font-size: 18px;
+    }
+    .nav-right ul li a img {
+        width: 20px;
+        height: auto;
+    }
+    .nav-right ul li {
+        margin-left: 16px;
+    }
+    /* navbar css here */
+    /* banner css */
+    .banner {
+        padding: 24px 0 0 11%;
+    }
+    .banner-left h1 {
+        font-size: 65px;
+        margin-bottom: 16px;
+        line-height: 50px;
+    }
+    .banner-left p {
+        font-size: 18px;
+        padding-right: 11%;
+        line-height: 22px;
+    }
+    .banner-left button {
+        max-width: 160px;
+        height: 55px;
+    }
+    .banner-left button a {
+        font-size: 20px;
+    }
+    .banner-right {
+        padding-right: 5%;
+        margin-bottom: -18%;
+    }
+    /* banner css */
+    /* location section css */
+    .location-section {
+        padding: 9% 11%;
+    }
+    .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .icon img {
+        height: 35px;
+        width: 35px;
+    }
+    .detail h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .detail p {
+        font-size: 18px;
+    }
+    .story-container h4 {
+        font-size: 32px;
+    }
+    .story-container p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .years-left h6 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .years-left img {
+        width: 120px;
+    }
+    /* location section css */
+    /* menu section css */
+    .menu-section {
+        padding: 7% 11%;
+    }
+    .menu-left h5 {
+        font-size: 14px;
+    }
+    .menu-left h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .menu-left p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+    .dish {
+        width: 160px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .menu-right {
+        padding: 0 8%;
+    }
+    .menu-right h3 {
+        font-size: 32px;
+    }
+    .menu-right h4 {
+        font-size: 26px;
+    }
+    .menu-item {
+        grid-template-columns: 15% 84%;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+    .menu-item img {
+        width: 74px;
+        height: 74px;
+        margin-right: 21px;
+    }
+    .menu-right h5 {
+        font-size: 26px;
+    }
+    /* menu section css */
+    /* testimonial section css */
+    .testimonial-section {
+        padding-left: 11%;
+    }
+    .testimonial-section h5 {
+        font-size: 14px;
+    }
+    .testimonial-section h3 {
+        font-size: 32px;
+    }
+    .testimonial-section p {
+        font-size: 18px;
+    }
+    .card-head img {
+        width: 65px;
+    }
+    .name h4 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .card-head .name p {
+        font-size: 18px;
+    }
+    .card {
+        height: 300px;
+        padding: 30px 25px;
+    }
+    .italic p {
+        font-size: 20px;
+    }
+    /* testimonial section css */
+    /* special dish section css */
+    .special-dish {
+        padding: 7% 11% 4.7% 11%;
+        text-align: center;
+    }
+    .special-dish h5 {
+        font-size: 14px;
+    }
+    .special-dish h3 {
+        font-size: 32px;
+    }
+    .special-dish p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    /* special dish section css */
+    /* popular dish section css */
+    .popular-dish {
+        padding: 0 11% 9% 11%;
+    }
+    .popular-items {
+        grid-template-columns: 42% 42%;
+        padding: 0 6%;
+    }
+    .popular-dish h5 {
+        font-size: 14px;
+    }
+    .popular-dish h3 {
+        font-size: 32px;
+    }
+    .popular-dish p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .item-name h4, .item-price h4 {
+        font-size: 23px;
+    }
+    /* popular dish section css */
+    /* service section css */
+    .service-section {
+        padding: 7% 11%;
+        grid-template-columns: 100%;
+    }
+    .service-left h5 {
+        font-size: 14px;
+    }
+    .service-left{
+        text-align: center;
+    }
+    .service-left h5::after {
+        margin: auto;
+    }
+    .service-left h5::before {
+        margin: auto;
+        margin-bottom: 3px;
+    }
+    .service-left h5 {
+        text-align: center;
+    }
+    .service-left p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        padding: 0 10%;
+    }
+    .service-card div{
+        margin: 15% 0;
+    }
+    .service-right {
+        grid-template-columns: 28% 28% 28%;
+        justify-content: space-between;
+        padding: 0 7%;
+    }
+    .service-card h4 {
+        font-size: 20px;
+    }
+    /* service section css */
+    /* blog section css */
+    .blog-section {
+        padding: 7% 11%;
+    }
+    .blog-section h5 {
+        font-size: 14px;
+    }
+    .blog-section p {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .blog-detail h3 {
+        font-size: 26px;
+    }
+    .blog-detail {
+        padding: 30px 20px;
+        text-align: left;
+    }
+    .blog-head h5 {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .view button{
+        font-size: 20px;
+        height: 55px;
+    }
+    .blog-detail p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    /* blog section css */
+    /* reservation section css */
+    .form-head h5::after {
+        width: 140px;
+    }
+    .form-head h5::before {
+        width: 140px;
+    }
+    .form-head h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .form-head h3 {
+        font-size: 32px;
+        margin-bottom: 26px;
+    }
+    .personal-details {
+        margin-bottom: 24px;
+    }
+    .personal-details input {
+        height: 55px;
+    }
+    form {
+        width: 75%;
+    }
+    .reservation-detail input {
+        height: 55px;
+    }
+    form button {
+        height: 55px;
+        width: 35%;
+    }
+    /* reservation section css */
+    /* footer section css */
+    .footer-section {
+        padding: 0 11%;
+        margin-top: -1%;
+    }
+    .footer-head .logo img {
+        max-width: 250px;
+    }
+    .contact h5::after {
+        width: 93px;
+    }
+    .contact h5::before {
+        width: 93px;
+    }
+    .contact h5, .timing h5 {
+        font-size: 14px;
+    }
+    .timing h5::after {
+        width: 180px;
+    }
+    .timing h5::before {
+        width: 180px;
+    }
+    .footer-form input {
+        height: 55px;
+    }
+    .footer-form button {
+        font-size: 20px;
+        height: 55px;
+    }
+    .footer-section p {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    .mail p {
+        padding: 0 10%;
+    }
+    /* footer section css */
+}
+@media only screen and (max-width: 992px){
+    /* banner head css */
+    .banner-head {
+        padding: 35px 10%;
+        grid-template-columns: 30% 38% 30%;
+    }
+    .phone {
+        max-width: 130px;
+        height: 45px;
+    }
+    .phone p {
+        font-size: 16px;
+    }
+    .logo img {
+        max-width: 230px;
+    }
+    .reservation .reserve {
+        max-width: 130px;
+        height: 45px;
+        font-size: 18px;
+    }
+    /* banner head css */
+    /* navbar css */
+    .nav-links{
+        position: absolute;
+        transition:all .5s;
+        left:-499px;
+        top: 30px;
+        height: 190px;
+        width: 100%;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .nav-left ul li {
+        display:block;
+        margin-bottom: 5px;
+        background-color: #343942;
+        width: 50%;
+        line-height: 28px;
+        border-radius: 10px;
+        border: 1px solid rgb(30, 30, 30);
+    }
+    .nav-left ul li:hover{
+        box-shadow: 0px 0px 5px #c1c5cd;
+    }
+    .nav-left ul li a {
+        padding-left:10px;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .active {
+        display: flex;
+        opacity: 1;
+        left: 0px;
+    }
+    .navHeight {
+        height: 320px;
+    }
+    /* navbar css */
+    /* banner css */
+    .banner {
+        padding: 24px 0 0 10%;
+    }
+    .banner-left {
+        padding-top: 18%;
+    }
+    .banner-left h1 {
+        font-size: 55px;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+    .banner-left p {
+        font-size: 16px;
+        padding-right: 10%;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-left button {
+        max-width: 130px;
+        height: 45px;
+    }
+    .banner-left button a {
+        font-size: 18px;
+    }
+    .banner-right {
+        padding-right: 4%;
+        margin-bottom: -18.6%;
+    }
+    /* banner css */
+    /* location section css */
+    .location-section {
+        padding: 9% 10%;
+    }
+    .location {
+        grid-template-columns:100%;
+        justify-content: center;
+        margin-bottom: 10.8%;
+    }
+    .locate {
+        grid-template-columns: 15% 82%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .detail p {
+        font-size: 16px;
+    }
+    .the-story {
+        grid-template-columns:100%;
+        justify-content: center;
+    }
+    .story-container p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    /* location section css */
+    /* menu section css */
+    .menu-section {
+        padding: 7% 10%;
+    }
+    .menu-left p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+    .menu-left {
+        padding: 0 15%;
+        text-align: center;
+        max-height: 900px;
+    }
+    .menu-left img {
+        width: 100%;
+        max-height: 550px;
+        margin-bottom: 40px;
+    }
+    .dish {
+        width: 130px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .menu-right {
+        padding: 0 ;
+    }
+    .menu-right h4 {
+        font-size: 24px;
+    }
+    .menu-right h5 {
+        font-size: 24px;
+    }
+    /* menu section css */
+    /* testimonial section css */
+    .testimonial-section {
+        padding-left: 10%;
+    }
+    .testimonial-section p {
+        font-size: 16px;
+    }
+    .italic p {
+        font-size: 20px;
+    }
+    .card {
+        height: 280px;
+        padding: 20px 15px;
+    }
+    .carousel-slide > div {
+        flex: 0 0 calc(50% - 40px); /* 2 cards at a time, adjusting for margin */
+    }
+    
+    /* testimonial section css */
+    /* special dish+ popular section css */
+    .special-dish {
+        padding: 7% 10% 4.7% 10%;
+    }
+    .special-dish p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .popular-dish {
+        padding: 0 10% 9% 10%;
+    }
+    .popular-dish p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .popular-items {
+        padding: 0;
+    }
+    /* special dish + popular section css */
+    /* service section css  */
+    .service-section {
+        padding: 7% 10%;
+    }
+    .service-left p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .service-right {
+        padding: 0;
+    }
+    .service-card h4 {
+        font-size: 18px;
+    }
+    .service-left h3 {
+        font-size: 32px;
+    }
+    /* service section css  */
+    /* blog section css */
+    .blog-section {
+        padding: 7% 10%;
+    }
+    .blog-section p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .content {
+        min-height: 500px;
+    }
+    .view button {
+        font-size: 18px;
+        height: 45px;
+        width: 35%;
+    }
+    .blog-detail {
+        padding: 20px 15px;
+    }
+    .blog-detail p {
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    .blog-head h5 {
+        font-size: 13px;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+        margin-right: 15px;
+    }
+    .blog-section h3 {
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    .blog-detail h3 {
+        font-size: 26px;
+    }
+    /* blog section css */
+    /* reservation section css */
+    .form {
+        width: 60%;
+        height: 65%;
+    }
+    .form-head h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .personal-details {
+        margin-bottom: 16px;
+    }
+    .personal-details input {
+        font-size: 18px;
+        height: 45px;
+    }
+    .reservation-detail input {
+        font-size: 18px;
+        height: 45px;
+    }
+    form button {
+        font-size: 18px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    /* reservation section css */
+    /* footer section css */
+    .footer-section {
+        padding: 0 10%;
+    }
+    .footer-head {
+        padding-top: 80px;
+    }
+    .footer-head .logo img {
+        max-width: 220px;
+    }
+    .about-us{
+        grid-template-columns: 40% 20% 40%;
+        justify-content: space-between;
+    }
+    .mail {
+        text-align: center;
+        grid-row: 2/2;
+        grid-column: span 3;
+    }
+    .timing {
+        grid-column: 3/3;
+    }
+    .footer-section p {
+        font-size: 16px;
+    }
+    .footer-form input {
+        height: 45px;
+        width: 40%;
+    }
+    .footer-form input::placeholder {
+        font-size: 18px;
+    }
+    .footer-form button {
+        font-size: 18px;
+        height: 45px;
+        width: 30%;
+    }
+    .mail p {
+        padding: 0 20%;
+        margin-top: 20px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    /* footer section css */
+
+
+}
+@media only screen and (max-width: 768px){
+    /* banner head css */
+    .banner-head {
+        padding: 15px 10%;
+        grid-template-columns: 40% 20% 40%;
+    }
+    .logo{
+        grid-row: 1/2;
+        grid-column: span 3;
+        margin-bottom: 30px;
+    }
+    .logo img {
+        max-width: 200px;
+    }
+    .phone {
+        max-width: 110px;
+        height: 40px;
+    }
+    .phone p {
+        font-size: 14px;
+    }
+    .reservation{
+        grid-column: 3/3;
+    }
+    .reservation img {
+        width: 22px;
+        height: 20px;
+        margin-right: 16px;
+    }
+    .reservation .reserve {
+        max-width: 110px;
+        height: 40px;
+        font-size: 16px;
+    }
+    /* banner head css */
+    /* navbar css */
+    .navbar {
+        grid-template-columns: 60% 40%;
+    }
+    .nav-left ul li {
+        width: 80%;
+    }
+    /* navbar css */
+    /* banner css */
+    .banner-left {
+        padding-top: 12%;
+    }
+    .banner-left h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .banner-left p {
+        font-size: 15px;
+        padding-right: 0;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .banner-left button {
+        max-width: 110px;
+        height: 40px;
+    }
+    .banner-left button a {
+        font-size: 16px;
+    }
+    .banner-right {
+        padding-right: 3%;
+        margin-bottom: -19%;
+    }
+    /* banner css */
+    /* location section css */
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .detail h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .detail p {
+        font-size: 15px;
+    }
+    .story-container h4 {
+        font-size: 28px;
+    }
+    .story-container p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .years-left h6 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .years-left img {
+        width: 100px;
+    }
+    /* location section css */
+    /* menu section css */
+    .menu-left {
+        padding: 0 10%;
+        text-align: center;
+        max-height: 900px;
+    }
+    .menu-left h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .menu-left h5::before {
+        width: 50px;
+    }
+    .menu-left h5::after {
+        width: 50px;
+    }
+    .menu-left h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .menu-left p {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    .menu-details p{
+        font-size: 15px;
+    }
+    .menu-left img {
+        width: 100%;
+        max-height: 490px;
+        margin-bottom: 40px;
+    }
+    .dish {
+        width: 110px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .menu-details {
+        grid-template-columns: 60% 33% 7%;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-right h3 {
+        font-size: 28px;
+    }
+    .menu-item {
+        margin-bottom: 30px;
+    }
+    .menu-item img {
+        width: 64px;
+        height: 64px;
+        margin-right: 16px;
+    }
+    .menu-right h5 {
+        font-size: 22px;
+    }
+    .menu-right h4 {
+        font-size: 22px;
+    }
+    /* menu section css */
+    /* testimonial section css */
+    .testimonial-section h5 {
+        font-size: 12px;
+    }
+    .testimonial-section h5::before {
+        width: 125px;
+        margin-bottom: 2px;
+    }
+    .testimonial-section h5::after {
+        width: 125px;
+    }
+    .testimonial-section h3 {
+        font-size: 28px;
+    }
+    .testimonial-section p {
+        font-size: 15px;
+    }
+    .italic p{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .card-head img {
+        width: 60px;
+    }
+    .name {
+        margin-left: 14px;
+    }
+    .card-head .name p {
+        font-size: 16px;
+    }
+    .name h4 {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+    /* testimonial section css */
+    /* special offer section css */
+    .special-dish h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .special-dish h5::before {
+        width: 54px;
+        margin-bottom: 3px;
+    }
+    .special-dish h5::after {
+        width: 54px;
+    }
+    .special-dish h3 {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .special-dish p {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0 10%;
+    }
+    /* special offer section css */
+    /* popular dish section css */
+    .popular-dish {
+        padding-bottom: 6%;
+    }
+    .popular-dish h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .popular-dish h5::before{
+        width: 50px;
+    }
+    .popular-dish h5::after {
+        width: 50px;
+    }
+    .popular-dish h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .popular-dish p {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0 10%;
+        margin-bottom: 30px;
+    }
+    .item-name h4, .item-price h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .item p {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    /* popular dish section css */
+    /* service section css */
+    .service-left h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .service-left h5::before {
+        width: 144px;
+    }
+    .service-left h5::after {
+        width: 144px;
+    }
+    .service-left h3 {
+        font-size: 28px;
+    }
+    .service-left p {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    .service-right {
+        grid-template-columns: 31% 31% 31%;
+    }
+    .service-card img {
+        margin-bottom: 10px;
+        width: 40px;
+    }
+    .service-card h4 {
+        font-size: 16px;
+    }
+    /* service section css */
+    /* blog section css */
+    .blog-section h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+    .blog-section h5::before {
+        width: 47px;
+        margin-bottom: 3px;
+    }
+    .blog-section h5::after {
+        width: 47px;
+    }
+    .blog-section h3 {
+        font-size: 28px;
+    }
+    .blog-section p {
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 18px;
+        padding:0 10%;
+    }
+    .content {
+        grid-template-columns: 100%;
+        padding:0 15%;
+    }
+    .content-left, .content-right {
+        margin-bottom: 30px;
+    }
+    .content-img,.left-img {
+        height: 50%;
+    }
+    .blog-head h5 {
+        font-size: 12px;
+    }
+    .blog-head h5::before {
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .blog-head h5::after {
+        width: 100%;
+    }
+    .blog-detail h3 {
+        font-size: 22px;
+    }
+    .blog-detail p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .view button {
+        font-size: 16px;
+        height: 40px;
+    }
+    /* blog section css */
+    /* reservation section css */
+    .form {
+        width: 65%;
+        height: 70%;
+    }
+    form {
+        width: 85%;
+    }
+    .form-head h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .form-head h5::before {
+        width: 118px;
+        margin-bottom: 3px;
+    }
+    .form-head h5::after {
+        width: 118px;
+    }
+    .form-head h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .personal-details input {
+        font-size: 16px;
+        height: 40px;
+    }
+    .reservation-detail input {
+        font-size: 16px;
+        height: 40px;
+    }
+    form button {
+        font-size: 16px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    /* reservation section css */
+    /* footer section css */
+    .footer-head {
+        padding-top: 40px;
+        grid-template-columns: 40% 20% 40%;
+    }
+    .footer-head .logo img {
+        max-width: 180px;
+    }
+    .footer-head .social{
+        grid-column: 3/3;
+    }
+    .footer-head .social ul li {
+        margin-left: 10px;
+    }
+    .social img {
+        width: 20px;
+    }
+    .insta a {
+        font-size: 15px;
+    }
+    .contact h5, .timing h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+    .contact h5::before {
+        width: 80px;
+        margin-bottom: 3px;
+    }
+    .contact h5::after {
+        width: 80px;
+    }
+    .timing h5::before {
+        width: 148px;
+    }
+    .timing h5::after {
+        width: 148px;
+    }
+    .about-us {
+        grid-template-columns: 45% 5% 50%;
+    }
+    .footer-section p {
+        font-size: 15px;
+    }
+    .footer-form input::placeholder {
+        font-size: 16px;
+    }
+    .footer-form input {
+        height: 40px;
+    }
+    .footer-form button {
+        font-size: 16px;
+        height: 40px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    /* footer section css */
+
+}
+@media only screen and (max-width: 576px){
+    /* banner head css */
+    .banner-head {
+        padding: 15px 6%;
+        grid-template-columns: 40% 10% 50%;
+    }
+    .logo img{
+        max-width: 180px;
+    }
+    .phone p {
+        font-size: 12px;
+    }
+    .phone {
+        max-width: 95px;
+        height: 35px;
+    }
+    .reservation img {
+        width: 20px;
+        height: 18px;
+        margin-right: 10px;
+    }
+    .reservation .reserve {
+        max-width: 95px;
+        height: 35px;
+        font-size: 15px;
+    }
+    /* banner head css */
+    /* navbar css */
+    .navbar {
+        padding: 25px 6%;
+    }
+    .nav-right ul li {
+        margin-left: 10px;
+    }
+    .nav-right ul li a img {
+        width: 18px;
+    }
+    /* navbar css */
+    /* banner css */
+    .banner {
+        padding: 24px 6% 0 6%;
+        grid-template-columns:100%;
+    }
+    .banner-left{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .banner-left h1{
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-left p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .banner-left button {
+        max-width: 95px;
+        height: 35px;
+    }
+    .banner-left button a {
+        font-size: 15px;
+    }
+    .banner-right {
+        text-align: center;
+        padding-right:0;
+        margin-bottom: -19.4%;
+    }
+    /* banner css */
+    /* location section css */
+    .location-section {
+        padding: 14% 6%;
+    }
+    .story{
+        margin-top: 20px;
+    }
+    .story-container p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .locate {
+        grid-template-columns: 20% 80%;
+    }
+    .years {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+    .years-right {
+        margin-left: 0;
+    }
+    /* location section css */
+    /* menu section css */
+    .menu-section {
+        padding: 7% 6%;
+    }
+    .menu-left {
+        padding: 0;
+        text-align: center;
+        max-height: 900px;
+    }
+    .menu-left h5 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .menu-left h5::before {
+        width: 47px;
+        margin-bottom: 2px;
+    }
+    .menu-left p {
+        font-size: 14px;
+    }
+    .menu-left img {
+        max-width:440px;
+    }
+    .dish {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .menu-item {
+        display: flex;
+        align-items: center;
+    }
+    .menu-item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 6px;
+    }
+    .menu-details {
+        grid-template-columns: 67% 20% 13%;
+    }
+    .menu-right h4 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+    .menu-details p {
+        font-size: 14px;
+    }
+    .menu-right h5 {
+        font-size: 18px;
+    }
+    /* menu section css */
+    /* testimonial section css */
+    .testimonial-section {
+        padding-left: 6%;
+        padding-top: 10%;
+    }
+    .testimonial-section h5 {
+        font-size: 11px;
+    }
+    .testimonial-section h5::before {
+        width: 121px;
+        margin-bottom: 2px;
+    }
+    .testimonial-section h5::after {
+        width: 121px;
+    }
+    .testimonial-section p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .carousel-slide > div {
+        flex: 0 0 calc(100% - 40px); /* 1 card at a time, adjusting for margin */
+        margin-left: 20px;
+    }
+    .card-head .name p {
+        font-size: 15px;
+    }
+    .name h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .italic p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .card {
+        height: 230px;
+    }
+    .carousel-indicators {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+    /* testimonial section css */
+    /* special dish section css */
+    .special-dish {
+        padding: 7% 6% 4.7% 6%;
+    }
+    .special-dish h5 {
+        font-size: 11px;
+    }
+    .special-dish h5::before {
+        width: 52px;
+    }
+    .special-dish h5::after {
+        width: 52px;
+    }
+    .special-dish p {
+        font-size: 14px;
+        padding: 0;
+    }
+    .offers {
+        grid-template-columns: 100%;
+        justify-content:center;
+    }
+    .offer{
+        margin-bottom: 20px;
+    }
+    /* special dish section css */
+    /* popular dish section css */
+    .popular-dish {
+        padding: 6% 6% ;
+    }
+    .popular-dish h5 {
+        font-size: 11px;
+    }
+    .popular-dish h5::before {
+        width: 48px;
+    }
+    .popular-dish h5::after {
+        width: 48px;
+    }
+    .popular-dish p {
+        font-size: 14px;
+        padding: 0;
+    }
+    .popular-items {
+        grid-template-columns:100%;
+        padding: 0 10%;
+    }
+    /* popular dish section css */
+    /* service section css */
+    .service-section {
+        padding: 7% 6%;
+    }
+    .service-left h5 {
+        font-size: 11px;
+    }
+    .service-left h5::before {
+        width: 135px;
+    }
+    .service-left h5::after {
+        width: 135px;
+    }
+    .service-left p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .service-right {
+        grid-template-columns: 100%;
+        padding:0 17%;
+    }
+    .service-card{
+        margin-bottom: 30px;
+    }
+    /* service section css */
+    /* blog section css */
+    .blog-section {
+        padding: 7% 6%;
+    }
+    .blog-section h5 {
+        font-size: 11px;
+    }
+    .blog-section h5::before {
+        width: 44px;
+    }
+    .blog-section h5::after {
+        width: 44px;
+    }
+    .blog-section p {
+        font-size: 14px;
+        padding: 0 ;
+    }
+    .content {
+        padding: 0 4%;
+    }
+    .blog-detail {
+        padding: 10px 15px;
+    }
+    .blog-head h5::before {
+        width: 100%;
+    }
+    .blog-head h5::after {
+        width: 100%;
+    }
+    .content-left, .content-right {
+        min-height:450px;
+    }
+    .view button {
+        font-size: 15px;
+        height: 35px;
+        width: 35%;
+    }
+    /* blog section css */
+    /* reservation section css */
+    .bg-image {
+        height:400px;
+    }
+    .form {
+        width: 80%;
+        height: 60%;
+    }
+    .form-head h5 {
+        font-size: 11px;
+    }
+    .form-head h5::before {
+        width: 111px;
+    }
+    .form-head h5::after {
+        width: 111px;
+    }
+    .form-head h3 {
+        font-size: 24px;
+    }
+    .personal-details {
+        margin-bottom: 10px;
+    }
+    .personal-details input {
+        font-size: 15px;
+        height: 35px;
+        padding-left: 15px;
+    }
+    .reservation-detail input {
+        font-size: 15px;
+        height: 35px;
+        padding-left: 10px;
+    }
+    form {
+        width: 90%;
+    }
+    form button {
+        font-size: 15px;
+        height: 35px;
+        width: 40%;
+    }
+    /* reservation section css */
+    /* footer section css */
+    .footer-section {
+        padding: 0 6%;
+    }
+    .footer-head {
+        padding-top: 30px;
+        grid-template-columns: 40% 10% 50%;
+    }
+    .insta a {
+        font-size: 14px;
+    }
+    .social img {
+        width: 18px;
+    }
+    .contact h5, .timing h5 {
+        font-size: 11px;
+    }
+    .contact h5::before {
+        width: 75px;
+    }
+    .contact h5::after {
+        width: 75px;
+    }
+    .timing h5::before {
+        width: 139px;
+    }
+    .timing h5::after {
+        width: 139px;
+    }
+    .footer-section p {
+        font-size: 12px;
+    }
+    .mail p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 17%;
+        margin-bottom: 10px;
+    }
+    .footer-form input {
+        height: 35px;
+    }
+    .footer-form input::placeholder {
+        font-size: 15px;
+    }
+    .footer-form button {
+        font-size: 15px;
+        height: 35px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    /* footer section css */
+}

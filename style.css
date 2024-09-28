@@ -1,0 +1,1174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Josefin Sans",Cormorant Infant, sans-serif;
+}
+/* banner section css start from here */
+.banner-section{
+    background-color: #292e36;
+}
+.banner-head{
+    display: grid;
+    grid-template-columns: 24% 48% 24%;
+    padding: 65px 14%;
+    justify-content: space-between;
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    width: 232px;
+    height: 68px;
+    border: 1px solid #E1B168;
+    position: relative;
+}
+.phone p{
+    color: #DEDEDE;
+    font-weight: 400;
+    font-size: 20px;
+    top: 50%;
+    /* padding: 9% 15%; */
+    text-align: center;
+    position:relative;
+    transform: translateY(-50%);
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: auto;
+}
+.reservation{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.reservation img{
+    width: 31px;
+    height: 29px;
+    margin-right: 46px;
+}
+.reservation .reserve{
+    width:232px;
+    height: 68px;
+    border:none;
+    background-color: #E1B168;
+    font-size: 22px;
+    font-weight:500;
+}
+.reserve a{
+    text-decoration: none;
+    color: #292E36;
+}
+.reserve a:hover{
+    color: #ffffff;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 28px 14%;
+    justify-content: space-between;
+    border-top:1px solid #5c6168;
+    border-bottom: 1px solid #5c6168;
+}
+.nav-left ul li{
+    display: inline;
+    margin-right: 60px;
+}
+.nav-left ul li:nth-child(7){
+    margin-right: 0px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: #DEDEDE;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-left ul li a:hover{
+    color: #E1B168;
+    transition: .5s;
+}
+.nav-left{
+    position: relative;
+}
+.hamburger {
+    display: none;
+    width: 30px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 0% 50%;
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 0% 50%; 
+}
+.nav-right {
+    text-align: right;
+    display: grid;
+    align-items: center;
+}
+.nav-right ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.nav-right ul li:nth-child(1){
+    margin-left: 0px;
+}
+.banner{
+    display: grid;
+    grid-template-columns:46% 53.24%;
+    padding: 24px 0 0 14%;
+    justify-content: space-between;
+}
+.banner-left h1{
+    font-size: 100px;
+    color: #ffffff;
+    font-family: "Cormorant Infant";
+    margin-bottom: 32px;
+    line-height: 80px;
+}
+.banner-left {
+    padding-top: 23%;
+    width: 100%;
+}
+.banner-left p{
+    font-size: 20px;
+    color: #DFDFDF;
+    padding-right: 14%;
+    margin-bottom: 43px;
+    line-height: 25px;
+}
+.banner-left button{
+    background: transparent;
+    border: 1px solid #E1B168;
+    width: 232px;
+    height: 68px;
+}
+.banner-left button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+}
+.banner-left button a:hover{
+    color: #E1B168;
+}
+.banner-right{
+    padding-right: 8%;
+    margin-bottom: -17.3%;
+}
+.banner-right img{
+    width: 100%;
+}
+/* location section css start from here */
+.location-section{
+    background-color: #fff8f5;
+    padding: 9% 14%;
+}
+.location{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-bottom: 10.8%;
+}
+.locate{
+    display:grid;
+    grid-template-columns: 25% 74%;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    background-color: #292E36;
+    height: 83px;
+    width: 83px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.icon img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.detail h3{
+    font-family: "Cormorant Infant";
+    font-size: 30px;
+    font-weight: bold;
+    color: #292E36;
+    margin-bottom: 17px;
+}
+.detail p{
+    font-size: 20px;
+    font-weight:400;
+    color: #4A4A4A;
+}
+.the-story{
+    display: grid;
+    grid-template-columns: 47% 50%;
+    justify-content: space-between;
+}
+.content-image{
+    display: block;
+}
+.content-image img{
+    width: 100%;
+    height: 94%;
+}
+.story{
+    display:grid;
+    grid-template-columns: 6% 94%;
+}
+.story::before{
+    content:" ";
+    width: 1px;
+    background-color:#B29A90;
+    height: 94%;
+    display:block;
+}
+.story-container h4{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #292E36;
+    margin-bottom: 20px;
+}
+.story-container p{
+    font-size: 20px;
+    font-weight:400;
+    color: #555555;
+    line-height: 25px;
+    margin-bottom: 34px;
+}
+.years{
+    display: flex;
+    justify-content: space-between;
+}
+.years h4{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    margin-bottom: 18px;
+    color: #292E36;
+}
+.years p{
+    font-size: 20px;
+    font-weight:400;
+    color: #555555;
+    line-height: 25px;
+}
+.years-left h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.years-right{
+    margin-left: 40px;
+}
+/* menu section css start from here */
+.menu-section{
+    display: grid;
+    grid-template-columns: 29% 61%;
+    background-color: #ffffff;
+    padding: 10.5% 14%;
+    justify-content: space-between;
+}
+.menu-left h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+.menu-left h5::before{
+    content:" ";
+    width: 58px;
+    background-color:#e1b168;
+    height: 1px;
+    display: block;
+}
+.menu-left h5::after{
+    content:" ";
+    width: 58px;
+    background-color:#e1b168;
+    height: 1px;
+    display: block;
+}
+.menu-left h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "cormorant Infant";
+    margin-bottom: 22px;
+    color: #292E36;
+}
+.menu-left p{
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 59px;
+}
+.menu-left img{
+    width: 100%;
+    margin-bottom: 59px;
+}
+.dish{
+    border: 2px solid #E1B168;
+    background: transparent;
+    width: 232px;
+    height: 68px;
+    color: #E1B168;
+    font-size: 22px;
+    font-family:"Josefin Sans";
+}
+.dish:hover{
+    cursor: pointer;
+    color: #292E36;
+}
+.menu-right{
+    display:grid;
+    justify-content: right;
+    grid-template-columns: 100%;
+    width: 100%;
+}
+.menu-right h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "cormorant Infant";
+    margin-bottom: 44px;
+}
+.menu-right h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "cormorant Infant";
+}
+.menu-right h5{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "cormorant Infant";
+    margin-bottom: -12px;
+}
+.menu-item{
+    display:grid;
+    grid-template-columns: 13% 87%;
+    margin-bottom: 50px;
+}
+.menu-item img{
+    margin-right: 21px;
+}
+.menu-details{
+    display:grid;
+    grid-template-columns: 50% 43% 7%;
+    align-items: center;
+    width: 100%;
+}
+
+.dash-container{
+    display: flex;
+    align-items:center;
+    margin:0 7px;
+    margin-bottom: -40px;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+.line {
+    width: 100%;
+    height: 0;
+    border-top: 2px dashed #AAAAAA;
+    /* margin: 0 20px; */
+}
+
+/* testimonial section css start from here */
+.testimonial-section{
+    background-color: #292E36;
+    padding: 5.5% 0;
+    padding-left: 14%;
+}
+.testimonial-section h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.testimonial-section h5::before{
+    content:" ";
+    width: 145px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin-bottom: 4px;
+}
+.testimonial-section h5::after{
+    content:" ";
+    width: 145px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+}
+.testimonial-section h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0;
+    font-family: "Cormorant Infant";
+}
+.testimonial-section p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+/* slider css  */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 2s ease-in-out;
+    margin-left: -20px;
+}
+
+.carousel-slide > div {
+    box-sizing: border-box;
+    margin-left: 20px;
+    flex: 0 0 calc(33.33% - 40px);
+}
+
+.card {
+    height: 390px;
+    margin-right: 20px;
+    background-color: #343942;
+    padding: 53px 45px;
+}
+.card-head{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.card-head hr{
+    background-color:#797E89;
+}
+.name{
+    margin-left: 24px;
+    display: grid;
+    align-items: center;
+}
+.name h4{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Cormorant Infant";
+    margin-bottom: 15px;
+}
+.card-head .name p{
+    font-size: 20px;
+    color: #E1B168;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    margin: 0;
+}
+.italic p{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    margin-top: 25px;
+}
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #7F8286;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #D9D9D9;
+}
+
+/* slider css  */
+/* lower banner css start from here */
+.lower-banner img{
+    width: 100%;
+}
+
+/* special dish section start from here */
+.special-dish{
+    padding: 10.5% 14% 4.7% 14%;
+    text-align: center;
+}
+.special-dish h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #292E36;
+}
+.special-dish h5::before{
+    content:" ";
+    width: 66px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3.5px;
+}
+.special-dish h5::after{
+    content:" ";
+    width: 66px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+.special-dish h3{
+    font-size: 40px;
+    font-family: "Cormorant Infant";
+    margin: 13px 0 22px 0;
+    color: #292E36;
+}
+.special-dish p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 27px;
+    padding: 0 24%;
+    color: #555555;
+}
+.offers{
+    display: grid;
+    grid-template-columns: 48.7% 48.7%;
+    justify-content: space-between;
+}
+.offer img{
+    width: 100%;
+}
+/* popular dish section css start from here */
+.popular-dish{
+    text-align: center;
+    padding: 0 14% 9% 14%;
+}
+.popular-dish h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #292E36;
+}
+.popular-dish h5::before{
+    content:" ";
+    width: 66px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+.popular-dish h5::after{
+    content:" ";
+    width: 66px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+.popular-dish h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #292E36;
+    margin: 13px 0 22px 0;
+}
+.popular-dish p{
+    font-size: 20px;
+    color: #555555;
+    padding: 0 24%;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 5%;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.item img{
+    width: 100%;
+    margin-bottom: 18px;
+}
+.item hr{
+    color: #DCDCDC;
+    opacity: 30%;
+}
+
+.item-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.item-name h4,.item-price h4{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #292E36;
+    margin-bottom: 16px;
+}
+.item p{
+    font-size: 20px;
+    padding: 0;
+    text-align: left;
+    line-height: 25px;
+    color: #555555;
+    padding-right: 5%;
+    margin-top: 16px;
+}
+/* service section css start here */
+.service-section{
+    background-color: #292E36;
+    padding: 9.5% 14%;
+    display: grid;
+    grid-template-columns: 30% 61.5%;
+    justify-content: space-between;
+}
+.service-left h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #ffffff;
+    margin-bottom: 18px;
+    margin-top: 35px;
+}
+.service-left h5::before{
+    content:" ";
+    width: 179px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin-bottom: 3px;
+}
+.service-left h5::after{
+    content:" ";
+    width: 179px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+}
+.service-left h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+.service-left p{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-bottom: 8%;
+}
+.service-right{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+.service-card{
+    border: 22px solid #323841;
+    border-left: 23px solid #323841;
+    border-right: 23px solid #323841;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.service-card img{
+    margin-bottom: 18px;
+}
+.service-card h4{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Cormorant Infant";
+    text-align: center;
+}
+/* blog section css start from here */
+.blog-section{
+    padding: 10.5% 14%;
+    background-color: #ffffff;
+    text-align: center;
+}
+.blog-section h5{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #292E36;
+    margin-bottom: 13px;
+    text-align: center;
+}
+.blog-section h5::before{
+    content:" ";
+    width: 56px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.blog-section h5::after{
+    content:" ";
+    width: 56px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+.blog-head .blog-head-right{
+    margin-right: 0;
+    text-align: right;
+}
+.blog-section h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #292E36;
+    margin-bottom: 22px;
+}
+.blog-section p{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    margin-bottom: 65px;
+    padding: 0 24%;
+}
+.content{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+.left-img{
+    width: 100%;
+    height: 55%;
+}
+.content-left .left-img img{
+    width: 100%;
+    height: 100%;
+}
+.content-img{
+    position: relative;
+    width: 100%;
+    height: 55%;
+}
+.content-img img{
+    width: 100%;
+    height: 100%;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #292E36;
+    opacity: .6;
+}
+.view button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 68px;
+    width: 31%;
+    border: 2px solid #E1B168;
+    background: transparent;
+    font-size: 22px;
+    color: #E1B168;
+    font-family: "Josefin Sans";
+    font-weight: 500;
+}
+.view button:hover{
+    cursor: pointer;
+}
+.blog-head{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-head h5{
+    margin-right: 19px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #292E36;
+    margin-bottom: 21px;
+}
+.blog-head h5::before{
+    content:" ";
+    width: 100%;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.blog-head h5::after{
+    content:" ";
+    width: 100%;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+.blog-detail{
+    padding: 45px 40px;
+    text-align: left;
+}
+.blog-detail h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Cormorant Infant";
+    color: #292E36;
+    margin-bottom: 20px;
+}
+.blog-detail p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 0;
+    line-height: 25px;
+    padding: 0;
+}
+.content-left, .content-right{
+    border: 1px solid #555555;
+}
+/* reservation section css start from here */
+.reservation-section{
+    width: 100%;
+    max-height: 1088px;
+
+}
+.bg-image{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;height: 99.5%;
+}
+.bg-image img{
+    width: 100%;
+    height: 100%;
+} 
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55%;
+    height: 63.4%;
+    background-color: #292E36;
+    opacity: 95%;
+}
+.form form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-head{
+    text-align: center;
+}
+.form-head h5{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 19px;
+}
+.form-head h5::before{
+    content:" ";
+    width: 147px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.form-head h5::after{
+    content:" ";
+    width: 147px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+}
+.form-head h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight:bold;
+    font-family: "Cormorant Infant";
+    margin-bottom: 41px;
+}
+/* form css stat from here */
+form{
+    width: 70.5%;
+    text-align: center;
+}
+form input{
+    color: #ffffff;
+}
+.personal-details{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 34px;
+}
+.personal-details input{
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    height: 68px;
+    border: 1px solid #858585;
+    font-family: "Josefin Sans";
+    padding-left: 21px;
+}
+::placeholder{
+    color: #ffffff;
+    opacity: 1;
+}
+.reservation-detail{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-between;
+    width: 100%;
+}
+.reservation-detail input{
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    height: 68px;
+    border: 1px solid #858585;
+    font-family: "Josefin Sans";
+    padding-left: 21px;
+}
+form button{
+    background: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    width: 31%;
+    height: 68px;
+    border: 1px solid #858585;
+    font-family: "Josefin Sans";
+    color: #292E36;
+    margin-top: 34px;
+}
+form button:hover{
+    color: #E1B168;
+}
+/* footer section css start from here */
+.footer-section{
+    background-color: #1F242C;
+    padding: 0 14%;
+    margin-top: -.5%;
+}
+.footer-head{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.insta{
+    text-align: start;
+}
+.insta a{
+    color: #ffffff;
+}
+.insta a:hover{
+    color: #E1B168;
+}
+.footer-head .social ul{
+    text-align: right;
+}
+.footer-head .social ul li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+.contact{
+    text-align: left;
+}
+.mail{
+    text-align: center;
+}
+.timing{
+    text-align: right;
+    position: relative;
+}
+.contact h5,.timing h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 4px;
+    margin-bottom: 32px;
+    
+}
+.contact h5::before{
+    content:" ";
+    width: 98px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    margin-bottom: 4px;
+}
+.contact h5::after{
+    content:" ";
+    width: 98px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+}
+.timing h5::before{
+    content:" ";
+    width: 186px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-top: -4px;
+}
+.timing h5::after{
+    content:" ";
+    width: 186px;
+    background-color:#E1B168;
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+.about-us p{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 34px;
+}
+.about-us p span{
+    color: #E1B168;
+}
+.mail p{
+    line-height: 25px;
+    padding: 0 20%;
+    margin-bottom: 32px;
+}
+.footer-form{
+    width: 100%;
+}
+.footer-form div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.footer-form input{
+    background: transparent;
+    color: #ffffff;
+    width: 60%;
+    height: 68px;
+    padding-left: 20px;
+    border: 1px solid #858585;
+}
+.footer-form input::placeholder{
+    font-size: 22px;
+}
+.footer-form button{
+    background: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    width: 35%;
+    height: 68px;
+    border: 1px solid #858585;
+    font-family: "Josefin Sans";
+    color: #292E36;
+    margin: 0;
+    margin-left: -5px;
+}
+.footer{
+    background-color: #1F242C;
+
+}
+.footer hr{
+    color: #575B62;
+    width: 100%;
+}
+
+.footer p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 35px;
+}
+.fo-line{
+    display: flex;
+    align-items: center;
+}
+.fo-line::after{
+    content: '';
+    width: 1px;
+    height: 18px;
+    background-color: #ffffff;
+    display: flex;
+    margin: 0 10px;
+}
+.footer p span{
+    color: #E1B168;
+}
